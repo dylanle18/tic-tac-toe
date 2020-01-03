@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>TIC-TAC-TOE</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>TIC-TAC-TOE</header>
+    <div class="turn-container">
+      <span id="X" class="your-turn">X</span><span id="O">O</span>
+      <p id="whos-turn">X's Turn</p>
+    </div>
+    <table class="game">
+      <tr>
+        <td id="box-1" class="row-1 col-1"></td>
+        <td id="box-2" class="row-1 col-2"></td>
+        <td id="box-3" class="row-1 col-3"></td>
+      </tr>
+      <tr>
+        <td id="box-4" class="row-2 col-1"></td>
+        <td id="box-5" class="row-2 col-2"></td>
+        <td id="box-6" class="row-2 col-3"></td>
+      </tr>
+      <tr>
+        <td id="box-7" class="row-3 col-1"></td>
+        <td id="box-8" class="row-3 col-2"></td>
+        <td id="box-9" class="row-3 col-3"></td>
+      </tr>
+    </table>
+
+    <p id="winner">WINNER: ?</p>
+    <button id="reset" type="reset" onClick="window.location.reload();">
+      RESET
+    </button>
+    <script src="app.js"></script>
+  </body>
+</html>
